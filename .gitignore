@@ -12,13 +12,10 @@ app/build/
 local.properties
 
 # ---- Android Studio / IntelliJ ----
+# .idea/ se regenera desde los archivos Gradle al sincronizar. Commitearlo
+# solo produce conflictos de merge entre configuraciones de distintos desarrolladores.
 *.iml
-.idea/workspace.xml
-.idea/caches/
-.idea/libraries/
-.idea/modules.xml
-.idea/navEditor.xml
-.idea/assetWizardSettings.xml
+.idea/
 
 # ---- APKs y keystores ----
 *.apk
