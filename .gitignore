@@ -1,0 +1,31 @@
+# ---- Salidas de compilación ----
+/build/
+app/build/
+.cxx/
+.externalNativeBuild/
+
+# ---- Caché de Gradle (local, no el wrapper) ----
+.gradle/
+
+# ---- Configuración local del entorno ----
+# Contiene la ruta al SDK de Android de la máquina local, no es portable.
+local.properties
+
+# ---- Android Studio / IntelliJ ----
+*.iml
+.idea/workspace.xml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# ---- APKs y keystores ----
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# ---- OS ----
+.DS_Store
+Thumbs.db

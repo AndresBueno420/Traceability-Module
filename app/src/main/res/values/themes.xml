@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        El Activity necesita un tema XML de base para arrancar.
+        El diseño real (colores, tipografía) se aplica en Compose con MocaTraceTheme.
+    -->
+    <style name="Theme.MocaTrace" parent="android:Theme.Material.Light.NoTitleBar" />
+</resources>
